@@ -1,3 +1,20 @@
+[I am following this tutorial.](https://www.youtube.com/watch?v=06g6YJ6JCJU)
+
+## Features
+
+- 🛠️ Complete marketplace built with Next.js 14
+- 💻 Landing page & product pages
+- 🎨 Custom artwork
+- 💳 Full admin dashboard
+- 🛍️ Users can purchase and sell their own products
+- 🛒 Locally persisted shopping cart
+- 🔑 Authentication using Payload
+- 🌟 UI using shadcn-ui
+- ✉️ Emails for signing up and after purchase
+- ✅ Admins can verify products
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

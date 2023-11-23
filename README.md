@@ -1,4 +1,4 @@
-[I am following this tutorial.](https://youtu.be/06g6YJ6JCJU?si=rwr1EfGrl3wCVqTf&t=1700)
+[I am following this tutorial.](https://youtu.be/06g6YJ6JCJU?si=8Yf1N8w6V2i03YcI&t=2642)
 
 ## Features
 

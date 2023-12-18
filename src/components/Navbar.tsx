@@ -6,6 +6,7 @@ import { buttonVariants } from "./ui/button";
 import Cart from "./Cart";
 import { getServerSideUser } from "@/lib/payload-utils";
 import { cookies } from "next/headers";
+import UserAccountNav from "./UserAccountNav";
 
 const Navbar = async () => {
   const nextCookies = cookies();
@@ -17,7 +18,7 @@ const Navbar = async () => {
         <MaxWidthWrapper>
           <div className="border-b border-gray-200">
             <div className="flex h-16 items-center">
-              {/* TODO: Mobile nav */}
+              {/* <MobileNav /> */}
 
               <div className="ml-4 flex lg:ml-0">
                 <Link href="/">
@@ -47,7 +48,7 @@ const Navbar = async () => {
                   )}
 
                   {user ? (
-                    <div />
+                    <UserAccountNav user={user} />
                   ) : (
                     <Link
                       href="/sign-up"

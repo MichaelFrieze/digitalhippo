@@ -1,5 +1,3 @@
-[I am following this tutorial.](https://youtu.be/06g6YJ6JCJU?si=vkH-DPZ5O-yG1ZI-&t=23948)
-
 ## Features
 
 - 🛠️ Complete marketplace built with Next.js 14

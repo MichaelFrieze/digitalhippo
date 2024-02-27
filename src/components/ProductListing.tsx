@@ -6,6 +6,7 @@ import { Skeleton } from "./ui/skeleton";
 import Link from "next/link";
 import { cn, formatPrice } from "@/lib/utils";
 import { PRODUCT_CATEGORIES } from "@/config";
+import ImageSlider from "./ImageSlider";
 
 interface ProductListingProps {
   product: Product | null;
@@ -42,7 +43,7 @@ const ProductListing = ({ product, index }: ProductListingProps) => {
         href={`/product/${product.id}`}
       >
         <div className="flex w-full flex-col">
-          {/* <ImageSlider urls={validUrls} /> */}
+          <ImageSlider urls={validUrls} />
 
           <h3 className="mt-4 text-sm font-medium text-gray-700">
             {product.name}
